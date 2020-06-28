@@ -7,20 +7,20 @@
 [![hit][hit-svg]][hit-link]
 
 
-[size-svg]: https://github-size-badge.herokuapp.com/gabrieloheix/npm-noglifyjs.svg
-[size-link]: https://github.com/gabrieloheix/npm-noglifyjs
+[size-svg]: https://github-size-badge.herokuapp.com/gabrieloheix/stylus-css-wrapped-columns.svg
+[size-link]: https://github.com/gabrieloheix/stylus-css-wrapped-columns
 
-[open-svg]: https://img.shields.io/github/issues/gabrieloheix/npm-noglifyjs.svg
-[open-link]: https://github.com/gabrieloheix/npm-noglifyjs/issues
+[open-svg]: https://img.shields.io/github/issues/gabrieloheix/stylus-css-wrapped-columns.svg
+[open-link]: https://github.com/gabrieloheix/stylus-css-wrapped-columns/issues
 
-[closed-svg]: https://img.shields.io/github/issues-closed/gabrieloheix/npm-noglifyjs.svg
-[closed-link]: https://github.com/gabrieloheix/npm-noglifyjs/issues?q=is%3Aissue+is%3Aclosed
+[closed-svg]: https://img.shields.io/github/issues-closed/gabrieloheix/stylus-css-wrapped-columns.svg
+[closed-link]: https://github.com/gabrieloheix/stylus-css-wrapped-columns/issues?q=is%3Aissue+is%3Aclosed
 
-[githubDownloads-svg]: https://img.shields.io/github/downloads/gabrieloheix/npm-noglifyjs/total.svg
-[githubDownloads-link]: https://github.com/gabrieloheix/npm-noglifyjs
+[githubDownloads-svg]: https://img.shields.io/github/downloads/gabrieloheix/stylus-css-wrapped-columns/total.svg
+[githubDownloads-link]: https://github.com/gabrieloheix/stylus-css-wrapped-columns
 
-[hit-svg]: https://hits.dwyl.com/gabrieloheix/npm-noglifyjs.svg
-[hit-link]: https://hits.dwyl.com/gabrieloheix/npm-noglifyjs
+[hit-svg]: https://hits.dwyl.com/gabrieloheix/stylus-css-wrapped-columns.svg
+[hit-link]: https://hits.dwyl.com/gabrieloheix/stylus-css-wrapped-columns
 
 [//]: # (https://github.com/dwyl/repo-badges)
 
@@ -109,7 +109,7 @@ Or for wrapped columns for smaller screen, mixins ```scwc-wrapped-columns()``` a
 
 Parameters for Stylus Css Mixins.
 
-For ```scwc-multi-columns()```:
+For ```scwc-multi-columns(vertical, horizontal)```:
 
 - ```vertical```: default 2px
 - ```horizontal```: default 4px
@@ -118,13 +118,13 @@ For ```scwc-multi-column-*-of-*()```:
 
 - no arg
 
-For ```scwc-wrapped-columns()```:
+For ```scwc-wrapped-columns(vertical, horizontal, minimum)```:
 
 - ```vertical```: default 2px
 - ```horizontal```: default 4px
 - ```minimum```: default 768px
 
-For ```scwc-wrapped-column-*-of-*()```:
+For ```scwc-wrapped-column-*-of-*(vertical, horizontal, minimum)```:
 
 - ```vertical```: default 2px
 - ```horizontal```: default 4px
