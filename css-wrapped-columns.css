@@ -1,0 +1,203 @@
+/*
+	css-wrapped-columns.css
+
+	Author: Gabriel Oheix
+
+	No license. Free to use, re-use, modify, transform, distord, sell, for commercial use, etc.
+*/
+
+
+
+/* Multi Columns */
+
+
+.scwc-multi-columns {
+	width: 100%;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 4px 2px;
+}
+
+
+.scwc-multi-column-1-of-2 {
+	display: table-cell;
+	width: 50%;
+}
+
+
+.scwc-multi-column-1-of-3 {
+	display: table-cell;
+	width: 33.3333%;
+}
+
+.scwc-multi-column-2-of-3 {
+	display: table-cell;
+	width: 66.6666%;
+}
+
+
+.scwc-multi-column-1-of-4 {
+	display: table-cell;
+	width: 25%;
+}
+
+.scwc-multi-column-2-of-4 {
+	display: table-cell;
+	width: 50%;
+}
+
+.scwc-multi-column-3-of-4 {
+	display: table-cell;
+	width: 75%;
+}
+
+
+.scwc-multi-column-1-of-5 {
+	display: table-cell;
+	width: 20%;
+}
+
+.scwc-multi-column-2-of-5 {
+	display: table-cell;
+	width: 40%;
+}
+
+.scwc-multi-column-3-of-5 {
+	display: table-cell;
+	width: 60%;
+}
+
+.scwc-multi-column-4-of-5 {
+	display: table-cell;
+	width: 80%;
+}
+
+
+
+/* Wrapped Columns */
+
+
+.scwc-wrapped-columns {
+	display: block;
+}
+
+
+.scwc-wrapped-column-1-of-2 {
+	display: block;
+	margin: 6px 2px;
+}
+
+
+.scwc-wrapped-column-1-of-3 {
+	display: block;
+	margin: 6px 2px;
+}
+
+.scwc-wrapped-column-2-of-3 {
+	display: block;
+	margin: 6px 2px;
+}
+
+
+.scwc-wrapped-column-1-of-4 {
+	display: block;
+	margin: 6px 2px;
+}
+
+.scwc-wrapped-column-2-of-4 {
+	display: block;
+	margin: 6px 2px;
+}
+
+.scwc-wrapped-column-3-of-4 {
+	display: block;
+	margin: 6px 2px;
+}
+
+
+.scwc-wrapped-column-1-of-5 {
+	display: block;
+	margin: 6px 2px;
+}
+
+.scwc-wrapped-column-2-of-5 {
+	display: block;
+	margin: 6px 2px;
+}
+
+.scwc-wrapped-column-3-of-5 {
+	display: block;
+	margin: 6px 2px;
+}
+
+.scwc-wrapped-column-4-of-5 {
+	display: block;
+	margin: 6px 2px;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+	.scwc-wrapped-columns {
+		width: 100%;
+		display: table;
+		border-collapse: separate;
+		border-spacing: 2px 6px;
+	}
+
+
+	.scwc-wrapped-column-1-of-2 {
+		display: table-cell;
+		width: 50%;
+	}
+
+
+	.scwc-wrapped-column-1-of-3 {
+		display: table-cell;
+		width: 33.3333%;
+	}
+
+	.scwc-wrapped-column-2-of-3 {
+		display: table-cell;
+		width: 66.6666%;
+	}
+
+
+	.scwc-wrapped-column-1-of-4 {
+		display: table-cell;
+		width: 25%;
+	}
+
+	.scwc-wrapped-column-2-of-4 {
+		display: table-cell;
+		width: 50%;
+	}
+
+	.scwc-wrapped-column-3-of-4 {
+		display: table-cell;
+		width: 75%;
+	}
+
+
+	.scwc-wrapped-column-1-of-5 {
+		display: table-cell;
+		width: 20%;
+	}
+
+	.scwc-wrapped-column-2-of-5 {
+		display: table-cell;
+		width: 40%;
+	}
+
+	.scwc-wrapped-column-3-of-5 {
+		display: table-cell;
+		width: 60%;
+	}
+
+	.scwc-wrapped-column-4-of-5 {
+		display: table-cell;
+		width: 80%;
+	}
+
+}
+

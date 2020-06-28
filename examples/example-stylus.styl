@@ -1,0 +1,256 @@
+/*
+	Stylus version:
+		0.54.7
+
+	Compile:
+		stylus example-stylus.styl
+*/
+
+
+@import '../stylus-css-wrapped-columns'
+
+
+
+// https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+Indigo-100 = #C5CAE9
+Indigo-900 = #1A237E
+
+
+aggregation()
+	padding 10px 2px
+	background Indigo-100
+	color Indigo-900
+	border-radius 2px
+
+
+
+.outer
+
+	position relative
+	box-sizing border-box
+
+	background #FAFAFA
+	max-width 768px
+	margin 0px auto 200px
+
+
+	h1
+		padding 5%
+		color Indigo-900
+
+
+	div
+
+		position relative
+		box-sizing border-box
+
+		font-size 14px
+		letter-spacing 0.05em
+
+
+	.area
+
+		margin 20px
+
+
+		.oneline-multi
+
+			margin 2px 4px
+
+			background Indigo-100
+			color Indigo-900
+
+			border-radius 2px
+			text-align center
+
+
+		.oneline-wrapped
+
+			margin 6px 2px
+
+			background Indigo-100
+			color Indigo-900
+
+			border-radius 2px
+			text-align center
+
+
+
+	.multi-columns
+
+		scwc-multi-columns()
+
+
+		.column-half
+
+			scwc-multi-column-1-of-2()
+
+			aggregation()
+			text-align center
+
+
+		.column-third
+
+			scwc-multi-column-1-of-3()
+
+			aggregation()
+			text-align center
+
+		.column-two-third
+
+			scwc-multi-column-2-of-3()
+
+			aggregation()
+			text-align center
+
+
+		.column-1-4
+
+			scwc-multi-column-1-of-4()
+
+			aggregation()
+			text-align center
+
+		.column-2-4
+
+			scwc-multi-column-2-of-4()
+
+			aggregation()
+			text-align center
+
+		.column-3-4
+
+			scwc-multi-column-3-of-4()
+
+			aggregation()
+			text-align center
+
+
+		.column-one-fifth
+
+			scwc-multi-column-1-of-5()
+
+			aggregation()
+			text-align center
+
+		.column-two-fifth
+
+			scwc-multi-column-2-of-5()
+
+			aggregation()
+			text-align center
+
+		.column-three-fifth
+
+			scwc-multi-column-3-of-5()
+
+			aggregation()
+			text-align center
+
+		.column-four-fifth
+
+			scwc-multi-column-4-of-5()
+
+			aggregation()
+			text-align center
+
+		.column-one-fifth-justified
+
+			scwc-multi-column-1-of-5()
+
+			padding 10px 2px
+
+			background Indigo-100
+			color Indigo-900
+
+			border-radius 2px
+			text-align justify
+
+
+
+	.wrapped-columns
+
+		scwc-wrapped-columns(6px, 2px, 1024px)
+
+
+		.column-1-of-2
+
+			scwc-wrapped-column-1-of-2(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+
+		.column-1-of-3
+
+			scwc-wrapped-column-1-of-3(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+		.column-2-of-3
+
+			scwc-wrapped-column-2-of-3(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+
+		.column-1-of-4
+
+			scwc-wrapped-column-1-of-4(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+		.column-2-of-4
+
+			scwc-wrapped-column-2-of-4(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+		.column-3-of-4
+
+			scwc-wrapped-column-3-of-4(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+
+		.column-1-of-5
+
+			scwc-wrapped-column-1-of-5(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+		.column-2-of-5
+
+			scwc-wrapped-column-2-of-5(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+		.column-3-of-5
+
+			scwc-wrapped-column-3-of-5(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+		.column-4-of-5
+
+			scwc-wrapped-column-4-of-5(6px, 2px, 1024px)
+
+			aggregation()
+			text-align center
+
+
+		.column-justified
+
+			scwc-wrapped-column-1-of-5(6px, 2px, 1024px)
+
+			aggregation()
+			text-align justify
+

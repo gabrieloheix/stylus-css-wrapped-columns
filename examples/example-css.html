@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Wrapped Columns CSS</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+		html { height: 100%; }
+		body { height: 100%; margin: 0px; }
+		h1 { padding: 5%; color: #1A237E; }
+		div { position: relative; box-sizing: border-box; font-size: 14px; letter-spacing: 0.05em; }
+		.outer { background: #FAFAFA; max-width: 768px; margin: 0px auto 200px; }
+		.area { margin: 20px; }
+		.colored { background: #C5CAE9; color: #1A237E; border-radius: 2px; text-align: justify; }
+		.centered { text-align: center; }
+		.spaced { padding: 10px 2px; }
+		.oneline-multi { margin: 2px 4px; /* counterbalance border-spacing */ }
+		.oneline-wrapped { margin: 5px 2px; }
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="../css-wrapped-columns.css">
+</head>
+<body>
+	<div class="outer">
+
+
+		<h1>Multi Columns</h1>
+		<div class="area">
+
+			<div class="oneline-multi colored centered">&nbsp;</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-2 colored spaced centered">
+					Multi
+				</div>
+				<div class="scwc-multi-column-1-of-2 colored spaced centered">
+					Columns
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-2 colored spaced centered">
+					<div>stylus</div><div>css</div><div>wrapped</div><div>columns</div>
+				</div>
+				<div class="scwc-multi-column-1-of-2 colored spaced centered">
+					<div>Multi in div</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="area">
+
+			<div class="oneline-multi colored centered">&nbsp;</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-3 colored spaced centered">
+					This
+				</div>
+				<div class="scwc-multi-column-1-of-3 colored spaced centered">
+					is
+				</div>
+				<div class="scwc-multi-column-1-of-3 colored spaced centered">
+					Sparta!
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-3 colored spaced centered">
+					Multi
+				</div>
+				<div class="scwc-multi-column-2-of-3 colored spaced centered">
+					Columns
+				</div>
+			</div>
+
+		</div>
+		<div class="area">
+
+			<div class="oneline-multi colored centered">&nbsp;</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					stylus
+				</div>
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					css
+				</div>
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					wrapped
+				</div>
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					columns
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-2-of-4 colored spaced centered">
+					This
+				</div>
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					is
+				</div>
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					Sparta!
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-4 colored spaced centered">
+					Multi
+				</div>
+				<div class="scwc-multi-column-3-of-4 colored spaced centered">
+					Columns
+				</div>
+			</div>
+
+		</div>
+		<div class="area">
+
+			<div class="oneline-multi colored centered">&nbsp;</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-5 colored spaced">
+					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced">
+					<div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced">
+					<div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced">
+					<div>Excepteur sint occaecat cupidatat non proident,</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced">
+					<div>sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-2-of-5 colored spaced centered">
+					<div>stylus</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced centered">
+					<div>css</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced centered">
+					<div>wrapped</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced centered">
+					<div>columns</div>
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-3-of-5 colored spaced centered">
+					<div>This</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced centered">
+					<div>is</div>
+				</div>
+				<div class="scwc-multi-column-1-of-5 colored spaced centered">
+					<div>Sparta!</div>
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-2-of-5 colored spaced centered">
+					<div>Multi</div>
+				</div>
+				<div class="scwc-multi-column-3-of-5 colored spaced centered">
+					<div>Columns</div>
+				</div>
+			</div>
+
+			<div class="scwc-multi-columns">
+				<div class="scwc-multi-column-1-of-5 colored spaced centered">
+					<div>Multi</div>
+				</div>
+				<div class="scwc-multi-column-4-of-5 colored spaced centered">
+					<div>Columns</div>
+				</div>
+			</div>
+
+		</div>
+
+
+		<h1>Wrapped Columns</h1>
+		<div class="area">
+
+			<div class="oneline-wrapped colored centered">&nbsp;</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-2 colored spaced centered">
+					Wrapped
+				</div>
+				<div class="scwc-wrapped-column-1-of-2 colored spaced centered">
+					Columns
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-2 colored spaced centered">
+					<div>stylus</div><div>css</div><div>wrapped</div><div>columns</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-2 colored spaced centered">
+					<div>Wrapped in div</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="area">
+
+			<div class="oneline-wrapped colored centered">&nbsp;</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-3 colored spaced centered">
+					This
+				</div>
+				<div class="scwc-wrapped-column-1-of-3 colored spaced centered">
+					is
+				</div>
+				<div class="scwc-wrapped-column-1-of-3 colored spaced centered">
+					Sparta!
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-3 colored spaced centered">
+					Wrapped
+				</div>
+				<div class="scwc-wrapped-column-2-of-3 colored spaced centered">
+					Columns
+				</div>
+			</div>
+
+		</div>
+		<div class="area">
+
+			<div class="oneline-wrapped colored centered">&nbsp;</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					stylus
+				</div>
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					css
+				</div>
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					wrapped
+				</div>
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					columns
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-2-of-4 colored spaced centered">
+					This
+				</div>
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					is
+				</div>
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					Sparta!
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-4 colored spaced centered">
+					Wrapped
+				</div>
+				<div class="scwc-wrapped-column-3-of-4 colored spaced centered">
+					Columns
+				</div>
+			</div>
+
+		</div>
+		<div class="area">
+
+			<div class="oneline-wrapped colored centered">&nbsp;</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-5 colored spaced">
+					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced">
+					<div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced">
+					<div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced">
+					<div>Excepteur sint occaecat cupidatat non proident,</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced">
+					<div>sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-2-of-5 colored spaced centered">
+					<div>stylus</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced centered">
+					<div>css</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced centered">
+					<div>wrapped</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced centered">
+					<div>columns</div>
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-3-of-5 colored spaced centered">
+					<div>This</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced centered">
+					<div>is</div>
+				</div>
+				<div class="scwc-wrapped-column-1-of-5 colored spaced centered">
+					<div>Sparta!</div>
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-2-of-5 colored spaced centered">
+					<div>Wrapped</div>
+				</div>
+				<div class="scwc-wrapped-column-3-of-5 colored spaced centered">
+					<div>Columns</div>
+				</div>
+			</div>
+
+			<div class="scwc-wrapped-columns">
+				<div class="scwc-wrapped-column-1-of-5 colored spaced centered">
+					<div>Wrapped</div>
+				</div>
+				<div class="scwc-wrapped-column-4-of-5 colored spaced centered">
+					<div>Columns</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+</body>
+</html>
+
