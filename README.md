@@ -1,33 +1,14 @@
 # stylus-css-wrapped-columns
 
-[![downloads][totalDownloads-svg]][totalDownloads-link]
-[![yearly][yearlyDownloads-svg]][yearlyDownloads-link]
-[![monthly][monthlyDownloads-svg]][monthlyDownloads-link]
-[![weekly][weeklyDownloads-svg]][weeklyDownloads-link]
-[![hit][hit-svg]][hit-link]
-	
+[![size][size-svg]][size-link]
 [![open][open-svg]][open-link]
 [![closed][closed-svg]][closed-link]
-[![size][size-svg]][size-link]
-[![minified][minified-svg]][minified-link]
 [![github][githubDownloads-svg]][githubDownloads-link]
+[![hit][hit-svg]][hit-link]
 
 
-[totalDownloads-svg]: https://img.shields.io/npm/dt/noglify-js.svg
-[totalDownloads-link]: https://www.npmjs.com/package/noglify-js
-
-[yearlyDownloads-svg]: https://img.shields.io/npm/dy/noglify-js.svg
-[yearlyDownloads-link]: https://www.npmjs.com/package/noglify-js
-
-[monthlyDownloads-svg]: https://img.shields.io/npm/dm/noglify-js.svg
-[monthlyDownloads-link]: https://www.npmjs.com/package/noglify-js
-
-[weeklyDownloads-svg]: https://img.shields.io/npm/dw/noglify-js.svg
-[weeklyDownloads-link]: https://www.npmjs.com/package/noglify-js
-
-[hit-svg]: https://hits.dwyl.com/gabrieloheix/npm-noglifyjs.svg
-[hit-link]: https://hits.dwyl.com/gabrieloheix/npm-noglifyjs
-
+[size-svg]: https://github-size-badge.herokuapp.com/gabrieloheix/npm-noglifyjs.svg
+[size-link]: https://github.com/gabrieloheix/npm-noglifyjs
 
 [open-svg]: https://img.shields.io/github/issues/gabrieloheix/npm-noglifyjs.svg
 [open-link]: https://github.com/gabrieloheix/npm-noglifyjs/issues
@@ -35,14 +16,11 @@
 [closed-svg]: https://img.shields.io/github/issues-closed/gabrieloheix/npm-noglifyjs.svg
 [closed-link]: https://github.com/gabrieloheix/npm-noglifyjs/issues?q=is%3Aissue+is%3Aclosed
 
-[size-svg]: https://github-size-badge.herokuapp.com/gabrieloheix/npm-noglifyjs.svg
-[size-link]: https://github.com/gabrieloheix/npm-noglifyjs
-
-[minified-svg]: https://img.shields.io/bundlephobia/min/noglify-js.svg
-[minified-link]: https://bundlephobia.com/result?p=noglify-js
-
 [githubDownloads-svg]: https://img.shields.io/github/downloads/gabrieloheix/npm-noglifyjs/total.svg
 [githubDownloads-link]: https://github.com/gabrieloheix/npm-noglifyjs
+
+[hit-svg]: https://hits.dwyl.com/gabrieloheix/npm-noglifyjs.svg
+[hit-link]: https://hits.dwyl.com/gabrieloheix/npm-noglifyjs
 
 [//]: # (https://github.com/dwyl/repo-badges)
 
@@ -53,11 +31,11 @@ Very simple multi-columns layout for HTML/CSS w/ or w/o Stylus Css.
 
 Use
 
-- the CSS classes into your HTML files as usual classes
+- the **CSS classes** into your HTML files as usual classes
 
 or
 
-- the Stylus Css mixins into your Stylus Css files.
+- the **Stylus Css Mixins** into your Stylus Css files.
 
 
 Note: Behind the scene, it is using media queries, ```display``` ```table``` and ```table-cell``` supported by almost every browser.
@@ -129,10 +107,32 @@ Or for wrapped columns for smaller screen, mixins ```scwc-wrapped-columns()``` a
 
 ### Parameters
 
+Parameters for Stylus Css Mixins.
+
 For ```scwc-multi-columns()```:
 
 - ```vertical```: default 2px
 - ```horizontal```: default 4px
+
+For ```scwc-multi-column-*-of-*()```:
+
+- no arg
+
+For ```scwc-wrapped-columns()```:
+
+- ```vertical```: default 2px
+- ```horizontal```: default 4px
+- ```minimum```: default 768px
+
+For ```scwc-wrapped-column-*-of-*()```:
+
+- ```vertical```: default 2px
+- ```horizontal```: default 4px
+- ```minimum```: default 768px
+
+Arg ```vertical``` is used for vertical spacing like in ```margin``` and ```border-spacing``` - optional argument  
+Arg ```horizontal``` is used for horizontal spacing like in ```margin``` and ```border-spacing``` - optional argument  
+Arg ```minimum``` is used for ```min-width``` in media queries - optional argument  
 
 
 ##
